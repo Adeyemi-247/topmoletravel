@@ -1,0 +1,209 @@
+.abouty{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: url(../images/traveling9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: center;
+    // background-attachment: fixed;
+    // padding: 1px;
+    .abouty2{
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.376);
+        height: 100%;
+        // padding: 9rem;
+        div{
+            width: 50%;
+            padding: 9rem;
+            // background: $color5;
+            justify-content: center;
+            align-items: center;
+            h1{
+                .span1{
+                    color: $color1;
+                }
+                span{
+                    color: $color2;
+                }
+            }
+            p{
+                margin-top: 1ch;
+                color: $color2;
+                font-size: 19px;
+                line-height: 3ch;
+            }
+            button{
+                background: $color5;
+                width: 15%;
+                min-height: 6vh;
+                border: none;
+                cursor: pointer;
+                // margin: auto;
+                margin-top: 3ch;
+                &:hover{
+                    background: $color1;
+                }
+                a{
+                    color: $color2;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+.topduty{
+    position: relative;
+    width: 100%;
+    margin-top: 5rem;
+    .topduty2{
+        padding: 3rem;
+        position: relative;
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+        .towel{
+            width: 50%;
+            position: relative;
+            h1{
+                width: 100%;
+                color: $color1;
+            }
+            p{
+                width: 100%;
+                line-height: 3ch;
+                font-size: 17px;
+                margin-top: 1ch;
+            }
+        }
+        .toweldiv2{
+            width: 50%;
+            position: relative;
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
+
+.aboutus_down{
+    width: 100%;
+    position: relative;
+    background: #29327a1f;
+    padding: 3rem;
+    h1{
+        color: $color1;
+    }
+    p{
+        width: 90%;
+        line-height: 3ch;
+    }
+    div:nth-child(2){
+        margin-top: 2rem;
+    }
+    div:nth-child(3){
+        margin-top: 2rem;
+    }
+}
+
+@media screen and(max-width:900px){
+    .abouty{
+        position: relative;
+        width: 100%;
+        .abouty2{
+            width: 100%;
+            position: relative;
+            div{
+                width: 100%;
+                position: relative;
+                padding: 9rem 3rem;
+                h1{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 16px;
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .topduty{
+        width: 100%;
+        position: relative;
+        .topduty2{
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+            .towel{
+                width: 100%;
+                p{
+                    font-size: 17px;
+                    width: 90%;
+                }
+            }
+            .toweldiv2{
+                width: 100%;
+                // text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:414px){
+    .abouty{
+        position: relative;
+        width: 100%;
+        .abouty2{
+            position: relative;
+            width: 100%;
+            div{
+                width: 100%;
+                padding: 7rem 1rem;
+                h1{
+                    width: 100%;
+                    font-size: 25px;
+                }
+                p{
+                    width: 98%;
+                    font-size: 15px;
+                }
+                button{
+                    width: 30%;
+                }
+            }
+        }
+    }
+    .topduty{
+        position: relative;
+        width: 100%;
+        .topduty2{
+            position: relative;
+            width: 100%;
+            padding: 1.3rem;
+            .towel{
+                // text-align: center;
+                width: 100%;
+                h1{
+                    font-size: 20px;
+                    width: 100%;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .aboutus_down{
+        width: 100%;
+        position: relative;
+        padding: 1.2rem;
+        h1{
+            font-size: 23px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}

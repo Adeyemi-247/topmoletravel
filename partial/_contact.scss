@@ -1,0 +1,263 @@
+.contacyy1{
+    background: url(../images/contact1.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: 98vh;
+    .contacyy2{
+        position: relative;
+        width: 100%;
+        min-height: 100%;
+        background: rgba(0, 0, 0, 0.376);
+        .contacyy3{
+            width: 50%;
+            position: relative;
+            padding: 13rem 9rem;
+            h1{
+                font-size: 37px;
+                .minespan{
+                    color: $color5;
+                }
+                span{
+                    color: $color2;
+                }
+            }
+            p{
+                color: $color2;
+                font-size: 17px;
+            }
+            button{
+                background: $color1;
+                border: 1px solid $color2;
+                min-height: 6vh;
+                min-width: 15%;
+                margin-top: 3ch;
+                cursor: pointer;
+                a{
+                    color: $color2;
+                    font-size: 16px;
+                  
+                }
+            }
+            div{
+                color: $color2;
+                position: relative;
+                margin-top: 2ch;
+                a{
+                    color: $color5;
+                    &:hover{
+                        color: $color2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.cotains_all{
+    position: relative;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 4rem;
+    .in_contains{
+        position: relative;
+        width: 95%;
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 4rem;
+        .embededd1{
+            position: relative;
+            width: 50%;
+            .embededd2{
+                width: 100%;
+                position: relative;
+                display: flex;
+                margin-top: 2ch;
+                // background: $color5;
+                // justify-content: center;
+                div{
+                    position: relative;
+                    // width: 100%;
+                    p{
+                        .icoon{
+                            color: $color1;
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .down_contains{
+            position: relative;
+            width: 30%;
+            .form_contains{
+                border: 1px solid;
+                position: relative;
+                width: 100%;
+                padding: 3rem 5rem;
+                h1{
+                    color: $color1;
+                    text-align: center;
+                }
+                label{
+                    display: block;
+                    margin-top: 2ch;
+                }
+                input{
+                    width: 100%;
+                    // outline: none;
+                    outline-color: $color1;
+                    height: 7vh;
+                }
+                .my_messagee{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    margin-top: 2ch;
+                    input{
+                        width: 70%;
+                        height: 17vh;
+
+                    }
+                    button{
+                        background: $color1;
+                        border: none;
+                        min-width: 30%;
+                        min-height: 6vh;
+                        cursor: pointer;
+                        a{
+                            color: $color2;
+                            font-size: 17px;
+                        }
+                    }
+                }
+                .inform_div{
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    // background: $color1;
+                    justify-content: center;
+                    gap: 5px;
+                    input{
+                        width: 4%;
+                        // height: ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:1024px){
+    .cotains_all{
+        position: relative;
+        width: 100%;
+        padding: 3rem 2rem;
+        .in_contains{
+            position: relative;
+            width: 100%;
+            flex-direction: column-reverse;
+            .embededd1{
+                width: 100%;
+                iframe{
+                    width: 90%;
+                }
+            }
+            .down_contains{
+                width: 100%;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                .form_contains{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:578px){
+    .contacyy1{
+        position: relative;
+        width: 100%;
+        min-height: 40vh;
+        .contacyy2{
+            position: relative;
+            width: 100%;
+            .contacyy3{
+                width: 100%;
+                position: relative;
+                padding: 7rem 2rem;
+                p{
+                    width: 90%;
+                }
+                button{
+                    width: 26%;
+                }
+            }
+        }
+    }
+    .cotains_all{
+        position: relative;
+        width: 100%;
+        padding: 1rem;
+        .in_contains{
+            position: relative;
+            width: 95%;
+            .embededd1{
+                width: 100%;
+                position: relative;
+                iframe{
+                    width: 97%;
+                }
+            }
+            .down_contains{
+                width: 100%;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                .form_contains{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:414px){
+    .cotains_all{
+        position: relative;
+        width: 100%;
+        padding: 1rem;
+        .in_contains{
+            position: relative;
+            width: 95%;
+            .embededd1{
+                width: 100%;
+                position: relative;
+                iframe{
+                    width: 97%;
+                }
+            }
+            .down_contains{
+                width: 100%;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                .form_contains{
+                    width: 90%;
+                    padding: 1px;
+                    padding: 1rem;
+                    h1{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,319 @@
+.alltheservices{
+    background: $color5;
+    position: sticky;
+    width: 100%;
+    margin-top: 15vh;
+    min-height: 15vh;
+    top: 15vh;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    div{
+        position: relative;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+        button{
+            width: 13%;
+            min-height: 6vh;
+            border: 1px solid $color2;
+            cursor: pointer;
+            background: $color5;
+            &:hover{
+                background: $color2;
+            }
+            a{
+                color: $color1;
+                font-size: 15px;
+                // &:hover{
+                //     color: $color2;
+                // }
+            }
+
+
+        }
+    }
+}
+
+
+
+.services1{
+    width: 100%;
+    position: relative;
+    background: url(../images/traveling2.jpg);
+    height: 70vh;
+    background-position: center;
+    .inservices2{
+        width: 100%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.376);
+        height: 100%;
+        div:first-child{
+            width: 50%;
+            position: relative;
+            padding:5rem;
+            h1{
+                font-size: 38px;
+                span{
+                    color: $color2;
+                }
+                .service_span{
+                    color: $color5;
+                }
+            }
+            p{
+                color: $color2;
+                font-size: 17px;
+                line-height: 3ch;
+            }
+            div{
+                color: $color2;
+                font-size: 17px;
+                margin-top: 3ch;
+                a{
+                    color: $color5;
+
+                }
+            }
+
+        }
+    }
+}
+
+.workdivv{
+    position: relative;
+    width: 100%;
+    // margin-top: 5rem;
+    padding: 5rem;
+    div{
+        width: 20%;
+        position: relative;
+        background: $color6;
+        h1{
+            color: $color1;
+            text-align: center;
+        }
+    }
+}
+
+// .workservice{
+//     position: relative;
+//     width: 100%;
+//     padding: 3rem;
+//     .workservice2{
+//         width: 100%;
+//         position: relative;
+//         display: flex;
+//         gap: 2rem;
+//         align-items: center;
+//         justify-content: center;
+//         div{
+//             width: 30%;
+//             img{
+//                 width: 80%;
+//                 transform: scale(0.9);
+//                 transition: all 1s;
+//             }
+//         }
+//     }
+// }
+
+
+.myservices{
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    .myservices2{
+        // padding:0 3rem 0 0;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+        .myservices3{
+            // position: relative;
+            display: flex;
+            width:40%;
+            gap: 1rem;
+            div:first-child{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+            div:nth-child(2){
+                width: 60%;
+                h3{
+                    color: $color1;
+                }
+                p{
+                    line-height: 3ch;
+                    margin-top: 1ch;
+                }
+                a{
+                    color: $color5;
+                    &:hover{
+                        border: 1px solid $color5;
+                        border-top: none;
+                        border-right: none;
+                        border-left: none;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:900px){
+    .alltheservices{
+        position: sticky;
+        width: 100%;
+        // padding: 1rem 0;
+        // top: 0;
+        // z-index: 100;
+        
+        div{
+            width: 100%;
+            gap: 1rem;
+            flex-direction: column;
+            button{
+                width: 20%;
+            }
+        }
+    }
+    .services1{
+        position: relative;
+        width: 100%;
+        .inservices2{
+            position: relative;
+            width: 100%;
+            div:first-child{
+                width: 100%;
+                position: relative;
+                padding: 2rem;
+                p{
+                    width: 90%;
+                }
+            }
+
+        }
+    }
+    .workdivv{
+        width: 100%;
+        position: relative;
+        div{
+            width: 30%;
+        }
+    }
+    
+    .myservices{
+        width: 100%;
+        position: relative;
+        .myservices2{
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+            .myservices3{
+                width: 100%;
+                div:first-child{
+                    width: 40%;
+                }
+                div:nth-child(2){
+                    width: 55%;
+                    p{
+                        width: 93%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:414px){
+    .alltheservices{
+        position: sticky;
+        width: 100%;
+        padding: 1rem 0;
+        // top:15vh;
+        // z-index: 100;
+        
+        div{
+            width: 100%;
+            gap: 1rem;
+            flex-direction: column;
+            button{
+                width: 40%;
+            }
+        }
+    }
+    .services1{
+        position: relative;
+        width: 100%;
+        height: 72vh;
+        .inservices2{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            div:first-child{
+                width: 100%;
+                height: 100%;
+                h1{
+                    font-size: 28px;
+                    width: 100%;
+                }
+                p{
+                    width: 95%;
+                    font-size: 15px;
+                }
+                div{
+                    margin-top: 1px;
+                }
+            }
+
+        }
+    }
+    .workdivv{
+        position: relative;
+        width: 100%;
+        padding: 3rem;
+        div{
+            width: 70%;
+        }
+    }
+    .myservices{
+        position: relative;
+        width: 100%;
+        padding: 1rem;
+        .myservices2{
+            position: relative;
+            width: 100%;
+            .myservices3{
+                position: relative;
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                div:first-child{
+                    width: 100%;
+                    text-align: center;
+                    img{
+                        width: 50%;
+                    }
+                }
+                div:nth-child(2){
+                    width: 100%;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
+

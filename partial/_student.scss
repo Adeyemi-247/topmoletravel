@@ -1,0 +1,320 @@
+.studsec{
+    width: 100%;
+    position: relative;
+    background: url(../images/student5.jpg);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    .studsec2{
+        width: 50%;
+        // padding: 10rem 3rem;
+        h1{
+            font-size: 35px;
+            color: $color2;
+        }
+        div{
+            width: 69%;
+            height: 1px;
+            background: $color2;
+            margin-top: 2ch;
+        }
+    }
+}
+
+.studyy{
+    position: relative;
+    width: 100%;
+    padding: 5rem 2rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    div:first-child{
+        position: relative;
+        width: 80%;
+        h1{
+            color: $color1;
+            font-size: 36px;
+        }
+        p{
+            width: 90%;
+            line-height: 3ch;
+            font-size: 18px;
+        }
+
+    }
+}
+
+.formy2{
+    position: relative;
+    width: 100%;
+    // top: 100%;
+    padding: 5rem 0 5rem 0;
+    min-height: 150vh;
+    background: #29327a1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // z-index: 100;
+    .flows{
+        background: $color2;
+        box-shadow: 0 0 15px 0;
+        min-height: 150vh;
+        width: 50%;
+        padding: 4rem;
+        h1{
+            text-align: center;
+            color: $color1;
+        }
+        .hdivvv{
+            width: 100%;
+            margin-top: 3ch;
+            text-align: center;
+           
+            h3{
+                color: $color1;
+            }
+        }
+        .topinp{
+            width: 90%;
+            height: 8ch;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom-color:$color1;
+            outline: none;
+            color: $color5;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .rading{
+            margin-top: 2ch;
+            position: relative;
+            width: 100%;
+            p{
+                font-weight: bold;
+                color: $color1;
+            }
+        }
+        .masingle{
+            margin-top: 2ch;
+            position: relative;
+            width: 100%;
+
+            .marit{
+                font-weight: bold;
+                color: $color1;
+            }
+            select{
+                width: 20%;
+            }
+        }
+        .dateissue{
+            margin-top: 2ch;
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5rem;
+        }
+        .dateissue2{
+            margin-top: 2ch;
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .if_yes{
+            margin-top: 2ch;
+        }
+        .buttondown{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            button{
+                color: $color2;
+                background: $color5;
+                min-height: 4ch;
+                min-width: 20%;
+                border: none;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 5ch;
+                cursor: pointer;
+                color: $color2;
+                &:hover{
+                    background: $color1;
+                }
+            }
+        }
+        #confirm{
+            margin-top: 2rem;
+        }
+       
+        
+    }
+}
+
+@media screen and(max-width:856px){
+    .studsec{
+        position: relative;
+        width: 100%;
+        .studsec2{
+            width: 100%;
+            position: relative;
+            padding: 2rem;
+            div{
+                width: 425px;
+            }
+        }
+    }
+}
+@media screen and(max-width:768px){
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 75%;
+            h1{
+                font-size: 30px;
+            }
+
+        }
+    }
+    .studyy{
+        position: relative;
+        width: 100%;
+        div:first-child{
+            position: relative;
+            width: 100%;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:636px){
+    .studyy{
+        position: relative;
+        width: 100%;
+        div:first-child{
+            position: relative;
+            width: 100%;
+            h1{
+                width: 90%;
+                font-size: 30px;
+            }
+            p{
+                width: 90%;
+            }
+        }
+    }
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 75%;
+            h1{
+                font-size: 30px;
+            }
+
+        }
+    }
+}
+
+@media screen and(max-width:492px){
+    .studsec{
+        position: relative;
+        width: 100%;
+        .studsec2{
+            width: 100%;
+            position: relative;
+            padding: 2rem;
+            h1{
+                font-size: 26px;
+            }
+            div{
+                width: 320px;
+                
+            }
+        }
+    }
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 70%;
+            h1{
+                font-size: 30px;
+            }
+            .dateissue{
+                gap: 1rem;
+            }
+            .pluss{
+                font-size: 15px;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:414px){
+    .studyy{
+        position: relative;
+        width: 100%;
+        div:first-child{
+            position: relative;
+            width: 100%;
+            h1{
+                width: 90%;
+                font-size: 25px;
+            }
+            p{
+                width: 90%;
+                font-size: 17px;
+            }
+        }
+    }
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 65%;
+            h1{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 15px;
+                margin-top: 2rem;
+            }
+            .topinp{
+                width: 100%;
+            }
+            .dateissue{
+                gap: 1rem;
+            }
+            .pluss, .conf{
+                font-size: 13px;
+                margin-top: 1rem;
+            }
+            .buttondown{
+                width: 100%;
+                button{
+                    width: 50%;
+                }
+            }
+            
+        }
+    }
+}

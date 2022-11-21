@@ -1,0 +1,205 @@
+.client1{
+    width: 100%;
+    position: relative;
+    background: url(../images/traveling12.jpg);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    .client2{
+        width: 50%;
+        // padding: 10rem 3rem;
+        h1{
+            font-size: 35px;
+            color: $color1;
+        }
+        div{
+            width: 64%;
+            height: 1px;
+            background: $color1;
+            margin-top: 2ch;
+        }
+    }
+}
+
+// .formy1{
+//     form{
+//         .lab2{
+//             display: block;
+//         }
+//     }
+// }
+
+.formy2{
+    position: relative;
+    width: 100%;
+    // top: 100%;
+    padding: 5rem 0 5rem 0;
+    min-height: 150vh;
+    background: #29327a1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // z-index: 100;
+    .flows{
+        background: $color2;
+        box-shadow: 0 0 15px 0;
+        min-height: 150vh;
+        width: 50%;
+        padding: 4rem;
+        h1{
+            text-align: center;
+            color: $color1;
+        }  
+        
+        .lab2{
+            display: block;
+            margin-top: 2ch;
+            color: $color1;
+        }
+        .inplus{
+            width: 90%;
+            height: 7ch;
+            background: $color6;
+            border-radius: 1px;
+            border: none;
+            outline-color: $color5;
+            box-shadow: 2px 2px $color1;
+        }
+        .maritals{
+            margin-top: 2ch;
+            width: 100%;
+            select{
+                width: 20%;
+            }
+        }
+        .flexdiivv{
+            display: flex;
+            margin-top: 2ch;
+            gap: 3rem;
+            justify-content: center;
+            input{
+                width: 35ch;
+                height: 6ch;
+                border-radius: 1px;
+                background: $color6;
+                border: none;
+                outline-color: $color1;
+                box-shadow: 2px 2px $color1;
+            }
+        }
+        .anytravel{
+            width: 100%;
+            margin-top: 3ch;
+        }
+        .listoff{
+            width: 100%;
+            position: relative;
+            margin-top: 2ch;
+            p{
+                color: $color1;
+                text-align: center;
+            }
+        }
+        ol{
+            display: flex;
+            width: 100%;
+            position: relative; 
+            justify-content: center;
+            li{
+                list-style-type: lower-alpha;
+            }
+            .olldivv{
+                width: 40%;
+                input{
+                    width: 35ch;
+                    height: 5ch;
+                    border-radius: 1px;
+                    background: $color6;
+                    // border: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    outline-color: $color5;
+                    margin-top: 2ch;
+                    box-shadow: 2px 2px $color1;
+                }
+            }
+            
+        }
+    }
+}
+
+
+@media screen and(max-width:790px){
+    .client1{
+        position: relative;
+        width: 100%;
+        .client2{
+            position: relative;
+            width: 100%;
+            padding: 0 2rem;
+            h1{
+                color: $color2;
+            }
+            div{
+                background: $color2;
+                width: 400px;
+            }
+        }
+    }
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 90%;
+            .inplus{
+                height: 6vh;
+                // width: 90%;
+            }
+            .dateissue{
+                gap: 1rem;
+            }
+            .flexdiivv{
+                width: 80%;
+                flex-direction: column;
+                gap: 2rem;
+                input{
+                    height: 6vh;
+                }
+                label{
+                    color: $color1;
+                }
+            }
+            ol{
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+            }
+
+        }
+    }
+}
+
+
+@media screen and(max-width:470px){
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 100%;
+            .anytravel{
+                width: 100%;
+                label{
+                    font-size: 15px;
+                }
+            }
+            .dateissue{
+                gap: 1rem;
+            }
+        }
+    }
+}

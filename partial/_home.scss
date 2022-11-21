@@ -1,0 +1,408 @@
+.firstsec{
+    background: rgba(0, 0, 0, 0.376);
+    width: 100%;
+    height:87%;
+    position: absolute;
+    top: 14%;
+    .firstsec2{
+        position: relative;
+        width: 100%;
+        padding: 5rem 3rem;
+        .hshing2{
+            width: 50%;
+            h1{
+                font-size: 37px;
+                .sponk{
+                    color: $color5;
+                }
+                span{
+                    color: $color2;
+                }
+            }
+            p{
+                color: $color2;
+                font-size: 18px;
+                margin-top: 1ch;
+                width: 87%;
+                line-height: 3ch;
+            }
+            button{
+                background: $color1;
+                border: 1px solid $color2;
+                min-width: 17%;
+                min-height: 7vh;
+                cursor: pointer;
+                margin-top: 2ch;
+                a{
+                    color: $color2;
+                    font-size: 19px;
+                }
+            }
+        }
+        
+   }
+}
+
+
+.sendowndivv{
+    width: 100vw;
+    display: flex;
+    margin-top: 4rem;
+    position: relative;
+    padding: 5ch;
+    gap: 8rem;
+    // margin-bottom: 6rem;
+    align-items: center;
+    justify-content: center;
+    // background: $color5;
+    .fsfss{
+        width: 50%;
+        position: relative;
+        h3{
+            width: 100%;
+            color: $color1;
+            font-size: 25px;
+        }
+        p{
+            margin-top: 1rem;
+            font-size: 17px;
+            line-height: 3ch;
+        }
+    }
+    .container{
+        width: 45%;
+        // height: 20vh;
+        // background: $color3;
+        align-items: center;
+        justify-content: center;
+        // position: relative;
+        display: flex;
+        .swiper{
+            width: 100%;
+            .swiper-slide{
+                width: 100%;
+                height: 100%;
+                // background: $color7;
+                img{
+                    min-width: 70%;
+                    height: 50vh;
+                }
+            }
+        }
+       
+    }
+}
+
+.klonep{
+    width: 100%;
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+
+.marqqimg{
+    position: sticky;
+    top: 14%;
+    // margin-top: 50px;
+    z-index: 1;
+}
+.marqqimg2{
+    position: sticky;
+    top: 14%;
+    z-index: 1;
+}
+
+.keydivv{
+    position: relative;
+    width: 100%;
+    // background: $color5;
+    margin-top: 3rem;
+    padding: 3rem;
+    .sintiadiv{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .keyimag{
+            width: 45%;
+            img{
+                width: 60%;
+            }
+        }
+        .ph4divv{
+            width: 40%;
+            background: $color1;
+            // min-height: 8vh;
+            height: fit-content;
+            padding: 3rem;
+            h2{
+                color: $color5;
+                width: 100%;
+            }
+            p{
+                color: $color2;
+                font-size: 17px;
+                margin-top: 1ch;
+                line-height: 3ch;
+            }
+            button{
+                background: $color5;
+                margin-top: 50px;
+                margin-left: 20ch;
+                // border-radius: 2ch;
+                width: 15ch;
+                height: 5ch;
+                border: none;
+                color: $color1;
+                font-size: 15px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.says{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+    // margin-top: 3rem;
+    padding: 3rem;
+    div{
+        position: relative;
+        width: 95%;
+        h1{
+            width: 100%;
+            color: $color1;
+        }
+        p{
+            // margin: auto;
+            width: 95%;
+            line-height: 3ch;
+            font-size: 17px;
+            margin-top: 1ch;
+            // text-align: justify;
+        }
+        .worldim{
+            width: 100%;
+            text-align: center;
+           
+        }
+    }
+}
+
+
+@media screen and(max-width:900px){
+    .change_img{
+        width: 100%;
+        min-height: 50vh;
+        img{
+            width: 100%;
+            position: relative;
+            min-height: 50vh;
+        }
+    }
+
+    .firstsec{
+        width: 100%;
+        // min-height: 10vh;
+        .firstsec2{
+            width: 100%;
+            .hshing2{
+                width: 100%;
+                h1{
+                    width: 90%;
+
+                }
+                p{
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .sendowndivv{
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        .fsfss{
+            width: 100%;
+            h3{
+                // text-align: center;
+                width: 100%;
+            }
+           p{
+            width: 85%;
+           }
+        }
+        .container{
+            width: 95%;
+            // height: 20vh;
+            // background: $color3;
+            align-items: center;
+            justify-content: center;
+            // position: relative;
+            display: flex;
+            .swiper{
+                width: 100%;
+                .swiper-slide{
+                    width: 100%;
+                    height: 100%;
+                    // background: $color7;
+                    img{
+                        min-width: 90%;
+                        height: 65vh;
+                    }
+                }
+            }
+           
+        }
+    }
+
+    .keydivv{
+        position: relative;
+        width: 100%;
+        .sintiadiv{
+            flex-direction: column;
+            width: 100%;
+            .keyimag{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .ph4divv{
+                width: 60%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:414px){
+    .change_img{
+        width: 100%;
+        min-height: 50vh;
+        img{
+            width: 100%;
+            position: relative;
+            height: 85vh;
+        }
+    }
+    .firstsec{
+        width: 100%;
+        height: 75vh;
+        .firstsec2{
+            width: 100%;
+            position: relative;
+            padding: 2rem;
+            .hshing2{
+                width: 100%;
+                top: 0;
+                h1{
+                    font-size: 25px;
+                    width: 100%;
+                }
+                p{
+                    font-size: 15px;
+                }
+                button{
+                    width: 30%;
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .sendowndivv{
+        width: 100%;
+        position: relative;
+        padding: 0 0.5rem;
+        gap: 3rem;
+        .fsfss{
+            width: 100%;
+            padding: 1rem;
+            h3{
+                width: 100%;
+                font-size: 20px;
+                // text-align: center;
+            }
+            p{
+                font-size: 13px;
+                // text-align: center;
+                width: 95%;
+            }
+        }
+        .container{
+            width: 90%;
+            // height: 20vh;
+            // background: $color3;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            display: flex;
+            .swiper{
+                width: 100%;
+                .swiper-slide{
+                    width: 100%;
+                    height: 100%;
+                    // background: $color7;
+                    img{
+                        width: 100%;
+                        height: 50vh;
+                    }
+                }
+            }
+           
+        }
+    }
+
+    .keydivv{
+        width: 100%;
+        position: relative;
+        padding: 1px;
+        .sintiadiv{
+            width: 100%;
+            .keyimag{
+                width: 100%;
+
+            }
+            .ph4divv{
+                width: 70%;
+                padding: 3rem;
+                h2{
+                    font-size: 18px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 15px;
+                    // text-align: center;
+                    width: 100%;
+                }
+                button{
+                    margin: auto;
+                    width:  100%;
+                    margin-top: 2ch;
+                }
+            }
+        }
+    }
+    .says{
+        width: 100%;
+        margin-top: 3rem;
+        padding: 1rem;
+        div{
+            width: 90%;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}

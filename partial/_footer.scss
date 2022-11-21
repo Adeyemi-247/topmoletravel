@@ -1,0 +1,415 @@
+footer{
+    position: relative;
+    width: 100%;
+    background: $color1;
+    padding: 2rem;
+    margin-top: 4rem;
+    .subsinput{
+        position: relative;
+        // width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        // float: left;
+
+        .formks{
+            width: 50%;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            // background: $color3;
+            input{
+                width: 40%;
+                min-height: 5vh;
+            }
+            button{
+                background: $color5;
+                border: none;
+                width: 17%;
+                min-height: 5vh;
+                a{
+                    font-size: 16px;
+                    color: $color2;
+
+                }
+            }
+            
+        }
+       
+    }
+    .footercontent{
+        position: relative;
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        gap: 3rem;
+        .quiklin{
+            width: 20%;
+            ul{
+                width: 100%;
+                display: flex;
+                // flex-wrap: wrap;
+                flex-direction: column;
+                gap: 1rem;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1rem;
+                li{
+                    a{
+                        color: $color2;
+                        &:hover{
+                            color: $color5;
+                        }
+                    }
+                }
+            }
+            h3{
+                text-align: center;
+                color: $color5;
+                font-size: 25px;
+            }
+        }
+        .paymethod{
+            width: 20%;
+            h3{
+                text-align: center;
+                color: $color5;
+                font-size: 25px;
+            }
+            .meaning{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1rem;
+                div:first-child{
+                    background: $color2;
+                    min-width: 30%;
+                    text-align: center;
+                }
+                div:nth-child(3){
+                    background: $color2;
+                    min-width: 20%;
+                    text-align: center;
+                }
+
+
+            }
+        }
+        .contactus{
+            width: 20%;
+            h3{
+                text-align: center;
+                color: $color5;
+                font-size: 25px;
+            }
+            .insidecontact{
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                // margin-top: 1rem;
+                text-align: center;
+                div{
+                    // justify-content: flex-end;
+                    // text-align: center;
+                    width: 100%;
+                    position: relative;
+                    // margin: auto;
+                    p{
+                        color: $color2;
+                        margin-top: 0.7rem;
+                    }
+                    a{
+                        color: $color2;
+                        text-align: center;
+                        margin-top: 0.7rem;
+                        display: block;
+                        &:hover{
+                            color: $color5;
+                        }
+                    }
+                }
+
+            }
+            
+           
+        }
+        .media{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            h3{
+                text-align: center;
+                color: $color5;
+                font-size: 25px;
+            }
+            div{
+                text-align: center;
+                position: relative;
+                width: 60%;
+                // margin-top: 2rem;
+                gap: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                a{
+                    text-align: center;
+                    // display: block;
+                    color: $color2;
+                    font-size: 30px;
+                    margin-top: 0.5rem;
+                    &:hover{
+                        color: $color5;
+                    }
+                }
+            }
+            
+        }
+    }
+    .allrigh{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        p{
+            color: $color2;
+            text-align: center;
+            span{
+                color: $color5;
+            }
+            // word-spacing: 10px;
+        }
+    }
+}
+
+@media screen and(max-width:973px){
+    footer{
+        position: relative;
+        width: 100%;
+        padding: 2rem 0;
+        .subsinput{
+            position: relative;
+            width: 100%;
+        }
+        .footercontent{
+            position: relative;
+            width: 100%;
+            // background: $color3;
+            .quiklin{
+                width: 30%;
+                position: relative;
+            }
+            .paymethod{
+                width: 30%;
+                position: relative;   
+            }
+            .contactus{
+                width: 30%;
+                position: relative; 
+            }
+            .media{
+                width: 100%;
+                position: relative;
+                h3{
+                    display: none;
+                }
+                div{
+                    display: flex;
+                    gap: 2rem;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:959px){
+    footer{
+        width: 100%;
+        position: relative;
+        padding: 2rem 1rem;
+        .footercontent{
+            position: relative;
+            width: 100%;
+            gap: 1rem;
+            // background: $color3;
+            // padding: 1px;
+            .quiklin{
+                width: 32%;
+                position: relative;
+            }
+            .paymethod{
+                width: 32%;
+                position: relative;
+            }
+            .contactus{
+                width: 32%;
+                position: relative;   
+            }
+        }
+    }
+}
+
+@media screen and(max-width:798px){
+    footer{
+        width: 100%;
+        position: relative;
+        padding:3rem 0;
+        .subsinput{
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            .formks{
+                width: 80%;
+                // background: $color3;
+                display: flex;
+                // float: right;
+                justify-content: flex-end;
+            }
+
+        }
+        .footercontent{
+            width: 100%;
+            position: relative;
+            // background: $color3;
+            justify-content: center;
+            .quiklin{
+                width: 40%;
+                position: relative;
+            }
+            .paymethod{
+                width: 40%;
+                position: relative;
+
+            }
+            .contactus{
+                width: 40%;
+                position: relative;
+            }
+            .media{
+                width: 40%;
+                position: relative;
+                gap: 0;
+                h3{
+                    display: block;
+                }
+                div{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:592px){
+    footer{
+        position: relative;
+        width: 100%;
+        .footercontent{
+            position: relative;
+            width: 100%;
+            gap: 3rem;
+            .quiklin, .contactus, .paymethod, .media{
+                h3{
+                    font-size: 20px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and(max-width:523px){
+    footer{
+        .footercontent{
+            width: 100%;
+            position: relative;
+            .contactus{
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+        .allrigh{
+            width: 100%;
+            position: relative;
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media screen and(max-width:500px){
+    footer{
+        position: relative;
+        width: 100%;
+        .subsinput{
+            width: 100%;
+            position: relative;
+            .formks{
+                justify-content: center;
+                display: flex;
+                width: 95%;
+                input{
+                    min-width: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:414px){
+    footer{
+        position: relative;
+        width: 100%;
+        .subsinput{
+            width: 100%;
+            position: relative;
+            .formks{
+                width: 100%;
+                button{
+                    min-width: 30%;
+                }
+            }
+        }
+        .footercontent{
+            position: relative;
+            width: 100%;
+            .quiklin, .contactus, .paymethod, .media{
+                width: 80%;
+                position: relative;
+            }
+            .media{
+                h3{
+                    display: none;
+                }
+                div{
+                    display: flex;
+                }
+            }
+            .contactus{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+        .allrigh{
+            width: 100%;
+            p{
+                width: 80%;
+                text-align: center;
+            }
+        }
+       
+    }
+}

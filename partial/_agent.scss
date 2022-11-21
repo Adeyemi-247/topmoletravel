@@ -1,0 +1,121 @@
+.agenttin1{
+    background: url(../images/faqphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    .agenttin2{
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.376);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        .agenttin3{
+            padding: 14rem 10rem;
+            width: 50%;
+            min-height: 50%;
+            h1{
+                font-size: 37px;
+                .deanspan{
+                    color: $color1;
+                }
+                span{
+                    color: $color2;
+                }
+                // color: $color2;
+            }
+            div{
+                width: 65%;
+                background: $color2;
+                height: 1px;
+            }
+
+        }
+    }
+}
+
+
+.lobos{
+    margin-top: 3ch;
+}
+.datee{
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+    div{
+        margin-top: 2rem;
+
+    }
+}
+
+@media screen and(max-width:768px){
+        .agenttin1{
+            width: 100%;
+            position: relative;
+            .agenttin2{
+                width: 100%;
+                position: relative;
+                .agenttin3{
+                    padding: 12rem 5rem;
+                    width: 100%;
+                    position: relative;
+                    div{
+                        width: 420px;
+                    }
+                }
+            }
+        }
+    
+}
+
+@media screen and(max-width:420px){
+    .agenttin1{
+        width: 100%;
+        position: relative;
+        .agenttin2{
+            width: 100%;
+            position: relative;
+            .agenttin3{
+                // padding: 12rem 5rem;
+                width: 100%;
+                position: relative;
+                h1{
+                    font-size: 25px;
+                    // text-align: center;
+                }
+                div{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:414px){
+    .formy2{
+        position: relative;
+        width: 100%;
+        .flows{
+            position: relative;
+            width: 90%;
+            .datee{
+                gap: 1rem;
+                margin-top: 1rem;
+                div{
+                    margin-top: 2rem;
+
+                }
+            }
+            .lobos{
+                width: 100%;
+                label{
+                    font-size: 13px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

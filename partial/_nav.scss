@@ -1,0 +1,180 @@
+nav {
+    background: $color2;
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
+    // display: grid;
+    // place-items: center;
+    align-items: center;
+    box-shadow: 0 0 18px 0;
+    top: 0;
+    // left: 0;
+    // z-index: 100;
+    padding: 0 3ch;
+    z-index: 100;
+    .insidenav2 {
+        display: flex;
+        position: relative;
+        height: 100%;
+        width: 95%;
+        align-items: center;
+        // gap: 3rem;
+
+        justify-content: space-between;
+        // background: $color1;
+        // padding:5ch 1ch;
+        div {
+            // width: 10%;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            position: relative;
+            // background: $color4;
+            height: 13vh;
+
+            img {
+                width: 120px;
+            }
+        }
+
+        .nav_links2 {
+            width: 90%;
+            display: flex;
+            justify-content: flex-end;
+            gap: 6rem;
+            position: relative;
+            align-items: center;
+
+
+            // background: $color1;
+            li {
+                // list-style: none;
+                position: relative;
+
+                a {
+                    color: $color1;
+                    // font-weight:bold;
+                    font-size: 19px;
+                }
+
+            }
+
+            .booky2 {
+                // width: 20%;
+                // height: 2.5rem;
+                background: $color5;
+                border: none;
+                cursor: pointer;
+                align-items: center;
+                display: inline-block;
+                width: fit-content;
+                padding: 0.75rem 1rem;
+                // &:hover{
+                //     background: $color1;
+
+
+                // }
+                a {
+                    color: $color1;
+                    // font-size: 25px;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: $color2;
+                    }
+                }
+            }
+        }
+
+        .nav_toggle-btn2 {
+            display: none;
+            background: transparent;
+            // position: absolute;
+            // right: 0;
+            // top:100px;
+            font-size: 27px;
+            border: none;
+            color: $color1;
+            cursor: pointer;
+
+        }
+      
+        
+    }
+}
+
+
+@media screen and(max-width:1024px) {
+    nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+
+        .insidenav2 {
+            position: relative;
+            width: 100%;
+            .nav_links2 {
+                position: absolute;
+                flex-direction: column;
+                top: 100%;
+                right: 0;
+                gap: 0;
+                align-items: flex-start;
+                transform: scale(0);
+                transition: .5s ease-in-out;
+                width: 300px;
+                z-index: 200;
+                li {
+                    width: 100%;
+
+                    a {
+                        background: $color1;
+                        width: 100%;
+                        height: 3rem;
+                        align-items: center;
+                        display: flex;
+                        padding: 0 5rem 0 2.5rem;
+                        border-top: 1px solid $color3;
+                        color: $color2;
+
+                        &:hover {
+                            background: $color5;
+                        }
+
+                    }
+
+                    .booky2 {
+                        // background: $color1;
+                        text-align: center;
+                        width: 100%;
+                        // height: 2ch;
+                        // margin-top: -5px;
+                        justify-content: flex-start;
+                        // align-items: center;
+                        border-top: 1px solid $color3;
+
+                        &:hover {
+                            background: $color1;
+                        }
+                    }
+                }
+            }
+            
+            #nav_toggle-open2{
+                display: block;
+                position: absolute;
+                right: 60px;
+            }
+            #nav_toggle-close2{
+                // display: block !important;
+                position: absolute;
+                right: 60px;
+            }
+
+            
+
+           
+            
+        }
+    } 
+}
