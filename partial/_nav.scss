@@ -113,6 +113,10 @@ nav {
         .insidenav2 {
             position: relative;
             width: 100%;
+            gap: 0;
+            div{
+                width: 55%;
+            }
             .nav_links2 {
                 position: absolute;
                 flex-direction: column;
@@ -164,8 +168,10 @@ nav {
                 display: block;
                 position: absolute;
                 right: 60px;
+                width: 45%;
             }
             #nav_toggle-close2{
+                width: 45%;
                 // display: block !important;
                 position: absolute;
                 right: 60px;
